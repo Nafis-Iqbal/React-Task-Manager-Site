@@ -1,0 +1,32 @@
+  {
+    "compilerOptions": {
+      "target": "es6",
+      "lib": [
+        "dom",
+        "dom.iterable",
+        "esnext"
+      ],
+      "jsx": "react-jsx",
+      "types": ["vite/client"],
+      "noImplicitAny": true,
+      "strictFunctionTypes": true,
+      "strict": true,
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "forceConsistentCasingInFileNames": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "sourceMap": false
+    },
+    "include": [
+      "src/**/*",
+      "src/global.d.ts",
+      "vite.config.ts"    
+    ]
+  }
+  
